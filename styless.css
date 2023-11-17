@@ -1,0 +1,48 @@
+body{
+    background-color:beige;
+    font-size: 20px;
+    margin:5px;
+    padding:10px;
+    
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.form{
+    margin:50px;
+    background-color:rgb(199, 234, 234);
+    border-radius: 10px;
+    padding:50px;
+    border:1px solid rgb(151, 205, 244);
+    
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select{
+    background-color:beige;
+    width:100%;
+    border:1px solid rgb(151, 205, 244);
+    margin:3px;
+    padding:8px;
+}
+fieldset{
+    background-color: beige;
+    border:1px solid rgb(151, 205, 244);
+}
+button{
+    background-color: rgb(131, 131, 232);
+    border:none;
+    width:100%;
+    border-radius:4px;
+    padding:8px;
+    font-size:20px;
+    cursor:pointer;
+}
+button:hover{
+    background-color:blueviolet;
+}
+
+

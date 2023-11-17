@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <div class="form">
+    <form>
+        <p>Name:<input type="text" name="name" required></p>
+        <p>Age:<input type="number" name="age" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                <input type="radio" name="gender" id="male">Male
+                <input type="radio" name="gender" id="female">Female
+            </p>
+        </fieldset>
+        <p>Email:<input type="email" name="email" rquired></p>
+         <p>Your current status:
+            <select name="your current status" id="your current status">
+                <option value="">select</option>
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+            </select>
+        </p>
+        <p>Languages and frameworks known:
+            <br>
+            <input type="checkbox" name="C" id="C">
+            <label for="C">C</label>
+            <br>
+            <input type="checkbox" name="C++" id="C++">
+            <label for="C++">C++</label>
+            <br>
+            <input type="checkbox" name="Java" id="Java">
+            <label for="Java">Java</label>
+            <br>
+            <input type="checkbox" name="Python" id="Python">
+            <label for="Python">Python</label>
+            <br>
+            <input type="checkbox" name="Django" id="Django">
+            <label for="Django">Django</label>
+            <br>
+            <input type="checkbox" nam="Angular" id="Angular">
+            <label for="Angular">Angular</label> 
+        </p>
+        <p>Any comments or suggestions:<input type="text"></p>
+        <button>Submit</button>
+    </form>
+</div>
+</body>
+</html>
